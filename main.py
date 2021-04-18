@@ -12,7 +12,7 @@ class Runner():
         self.name = "" 
         
     def avance(self):
-        self.position[0] += random.randint(1, 2)
+        self.position[0] += random.randint(1, 3)
         
 
 class Game():
